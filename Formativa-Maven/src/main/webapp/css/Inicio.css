@@ -1,0 +1,34 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+    h1, h3 {
+      color: #4CAF50;
+    }
+    h1 {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    /* Carrusel centrado y con márgenes más pequeños */
+    #carouselExampleIndicators {
+      max-width: 90%; /* Ajusta el tamaño del carrusel a un 80% del ancho total */
+      margin: 0 auto; /* Centra el carrusel horizontalmente */
+    }
+
+    /* Ajustar las imágenes para que se ajusten bien */
+    .carousel-item img {
+      object-fit: cover; /* Mantiene la relación de aspecto y cubre el área */
+      height: 60vh; /* Mantiene la altura a 60vh */
+    }
+
+    /* Estilo de las leyendas del carrusel */
+    .carousel-caption {
+      background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    /* Estilo de los botones de navegación */
+    .carousel-control-prev-icon, .carousel-control-next-icon {
+      background-color: black;
+    }

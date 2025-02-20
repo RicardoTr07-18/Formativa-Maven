@@ -1,0 +1,40 @@
+ .card-body {
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .card-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+
+        .card-text {
+            font-size: 1rem;
+            color: #6c757d;
+        }
+
+        .list-unstyled li {
+            font-size: 0.9rem;
+            color: #495057;
+        }
+
+        .container {
+            max-width: 1200px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #007bff;
+            margin-bottom: 20px;
+        }
+
+        .btn-info {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-info:hover {
+            background-color: #0056b3;
+            border-color: #004085;
+        }

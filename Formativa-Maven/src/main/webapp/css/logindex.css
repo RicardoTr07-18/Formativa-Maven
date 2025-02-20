@@ -1,0 +1,87 @@
+body {
+                background: linear-gradient(135deg, #fad7d7, #f7a8b8); /* Gradiente de fondo */
+                margin: 0;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .login-container {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 70%;
+                max-width: 900px;
+                background-color: white;
+                border-radius: 15px;
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                overflow: hidden;
+            }
+            .logo-section {
+                flex: 1;
+                text-align: center;
+                padding: 40px;
+            }
+            .logo-section img {
+                width: 100%; /* Se ajusta al ancho del contenedor */
+                max-width: 200px; /* Tamaño máximo de la imagen */
+                height: auto; /* Mantiene la proporción */
+            }
+            .form-section {
+                flex: 2;
+                padding: 40px;
+            }
+            .form-section h2 {
+                margin-bottom: 30px;
+                color: #333;
+                text-align: center;
+            }
+            .form-group {
+                margin-bottom: 20px;
+            }
+            .form-control {
+                border-radius: 25px;
+                padding: 12px;
+                font-size: 16px;
+            }
+            .btn-primary {
+                background-color: #ff6b6b;
+                border: none;
+                border-radius: 25px;
+                padding: 12px;
+                font-size: 16px;
+                width: 100%;
+            }
+            .btn-primary:hover {
+                background-color: #f7a8b8;
+            }
+            .footer-text {
+                text-align: center;
+                margin-top: 15px;
+                font-size: 14px;
+                color: #777;
+            }
+            .footer-text a {
+                color: #ff6b6b;
+                text-decoration: none;
+            }
+            .footer-text a:hover {
+                text-decoration: underline;
+            }
+
+            /* Media Query para pantallas pequeñas */
+            @media (max-width: 768px) {
+                .login-container {
+                    flex-direction: column;
+                    width: 90%;
+                }
+                .logo-section {
+                    padding: 20px;
+                }
+                .form-section {
+                    padding: 20px;
+                }
+                .logo-section img {
+                    max-width: 150px; /* Reduces el tamaño de la imagen en pantallas pequeñas */
+                }
+            }

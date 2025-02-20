@@ -1,0 +1,22 @@
+       /*no cambie nada en el token, todo se mantiene, es sencillo, si quieres no agreges este estilo y se vera bien igual*/
+       
+        body {
+            background: linear-gradient(135deg, #fad7d7, #f7a8b8); /* Gradiente de fondo */
+        }
+        .col-md-4 {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .btn-primary {
+            background-color: #ff6b6b;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #f7a8b8;
+        }
+        .alert-danger {
+            background-color: #ff6b6b;
+            color: white;
+        }

@@ -1,0 +1,49 @@
+/* Estilos generales */
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+}
+
+html {
+    height: -webkit-fill-available;
+}
+
+/* Estilos para el contenedor principal */
+main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+/* Separador para la barra vertical */
+.b-example-divider {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+}
+
+/* Fondo y estilo de la barra vertical */
+.waifu {
+    background-color: #000000;
+}
+
+/* Efecto hover sobre los enlaces de la barra vertical */
+.nav-link:hover {
+    background-color: #ff6b6b; /* Cambia el color de fondo a blanco */
+    cursor: pointer; /* Cambia el cursor al pasar el mouse */
+}
+
+
+/* Estilo para los elementos del dropdown */
+.dropdown-menu .dropdown-item:hover {
+    background-color: #e25c5c; /* Fondo de color diferente en el dropdown */
+}
+
+/* Estilo de la barra de navegación */
+.navbar {
+    background-color: #ff6b6b; /* Barra de navegación con este color */
+}
