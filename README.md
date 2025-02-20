@@ -11,7 +11,7 @@ Eclipse IDE, SQL Developer
 
 ![diccionariodatos](https://github.com/user-attachments/assets/de121b8a-4026-4bb9-8722-4894498f7b4e)
 
-Sistema:
+**Sistema:**
 
 ![1](https://github.com/user-attachments/assets/e0ac7e41-a6a5-4ee7-b806-bf2f5dd2d874)
 
