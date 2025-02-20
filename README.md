@@ -1,13 +1,13 @@
 # Formativa-Maven
 un sistema de gestión que sirve para medir el rendimiento de los estudiantes, con la finalidad de tomar decisiones en que cursos o areas están bien
 
-Technologies used:
+*Technologies used:*
 Java, JavaScript(JS), CSS, JSP, Servlet, JavaMail API
 
-Platforms and software used:
+*Platforms and software used:*
 Eclipse IDE, SQL Developer
 
-Diccionario de datos:
+**Diccionario de datos:**
 
 ![diccionariodatos](https://github.com/user-attachments/assets/de121b8a-4026-4bb9-8722-4894498f7b4e)
 
